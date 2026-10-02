@@ -1,0 +1,60 @@
+/* Basic Reset & Font Setup */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #8A9A86; /* Sage green background */
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #35495e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: #42b883;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main Content Padding */
+section {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Recipe Cards */
+.recipe-card {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.recipe-card:last-child {
+  border-bottom: none;
+}
+
+h2 {
+  color: #35495e;
+}
+
+h3 {
+  color: #42b883;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #e2e2e2;
+  font-size: 0.9em;
+} 
