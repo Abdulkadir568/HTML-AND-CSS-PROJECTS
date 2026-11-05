@@ -1,26 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; background-color: #f4f4f9; color: #333; }
-    h1 { color: #2c3e50; }
-    ul { list-style: none; padding: 0; }
-    li { margin: 15px 0; }
-    a { text-decoration: none; color: #0066cc; font-size: 1.2rem; font-weight: bold; }
-    a:hover { text-decoration: underline; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Creative Portfolio</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+        h1 {
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            font-size: 2.8rem;
+        }
+        p {
+            color: #555;
+            font-size: 1.3rem;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 30px;
+        }
+        li {
+            margin: 15px 0;
+        }
+        a {
+            display: inline-block;
+            background: #ffffff;
+            color: #ff6b6b;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        a:hover {
+            background: #ff6b6b;
+            color: #ffffff;
+            transform: translateY(-3px);
+        }
+        button {
+            background: #ff6b6b;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        button:hover {
+            background: #fa5252;
+        }
+    </style>
 </head>
 <body>
-  <h1>Welcome to My Web Development Portfolio</h1>
-  <p>Here are the projects I have created:</p>
-  <ul>
-    <li><a href="./Academy-Cinemas/index.html">Academy Cinemas</a></li>
-    <li><a href="./Creating-CSS-Effects/index.html">Creating CSS Effects</a></li>
-    <li><a href="./Simple-Recipes/index.html">Simple Recipes</a></li>
-    <li><a href="./The-Pet-Shop-Website/index.html">The Pet Shop Website</a></li>
-  </ul>
+
+    <h1>Welcome to My Web Development Portfolio! 🚀</h1>
+    <p>Here are the creative projects I have built:</p>
+    
+    <ul>
+        <li><a href="./Academy-Cinemas/index.html">Academy Cinemas</a></li>
+        <li><a href="./Creating-CSS-Effects/index.html">Creating CSS Effects</a></li>
+        <li><a href="./Simple-Recipes/index.html">Simple Recipes</a></li>
+        <li><a href="./The-Pet-Shop-Website/index.html">The Pet Shop Website</a></li>
+    </ul>
+
+    <button onclick="sayHello()">Click for a Fun Surprise! 🎉</button>
+
+    <script>
+        function sayHello() {
+            alert("Thanks for visiting my colorful portfolio! Keep coding!");
+        }
+    </script>
+
 </body>
 </html>
